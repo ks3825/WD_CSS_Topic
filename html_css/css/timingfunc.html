@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            height: 70px;
+            width: 200px;
+            background-color: yellow;
+            margin: 15px;
+            position: relative;
+            animation-name: move;
+            animation-duration:10s ;
+            animation-iteration-count:infinite ;
+        }
+      
+    
+        @keyframes  move {
+           from{
+            left: 0;
+           } 
+           to{
+            left:200px ;
+           }
+        }
+    </style>
+</head>
+<body>
+    <div class="main a">linear</div>
+    <div class="main b">ease</div>
+    <div class="main c">ease-in</div>
+    <div class="main d">ease-out</div>
+    <div class="main e">ease-in-out</div>
+</body>
+</html>

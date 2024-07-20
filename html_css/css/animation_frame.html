@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            height: 400px;
+            width: 400px;
+            background-color: red;
+            position: absolute;
+            background-size: cover;
+            animation-name: move;
+            animation-duration:15s ;
+            animation-iteration-count: 4;
+            animation-direction:alternate-reverse;
+        }
+        @keyframes  move {
+         0%{
+            background-image: url(3516484_20632.svg);
+            
+            top: 0;
+            left: 0;
+         } 
+         25%{
+            background-image: url(car.jpg);
+            top: 0;
+            left: 800px;
+         } 
+         50%{
+            background-image: url(naturedrawing_2302bfc2_1638674559086_sc_cmprsd_40.jpg);
+            top: 800px;
+            left: 800px;
+         }
+         75%{
+            background-image: url(download\ \(3\).jpg);
+            top: 800px;
+            left: 0px;
+         } 
+         100%{
+            background-image: url(car.jpg);
+            top: 0;
+            left: 0;
+         }
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div>
+</body>
+</html>

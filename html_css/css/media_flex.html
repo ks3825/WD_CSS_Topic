@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            width: auto;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-direction: column;
+        }
+        .main > div {
+            height: 100px;
+            width: 100px;
+            background-color: chartreuse;
+            font-size: 40px;
+            
+        }
+        @media  only screen and (min-width:600px) {
+            /* @media only screen and (max-width:500px) { */
+            .main{
+            height: 100vh;
+            width: auto;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            flex-direction: row;
+            }
+        }
+    </style>
+</head>
+<body>
+   <div class="main">
+    <div class="sub-1">1</div>
+    <div class="sub-2">2</div>
+    <div class="sub-3">3</div>
+    <div class="sub-4">4</div>
+    <div class="sub-5">5</div>
+   </div> 
+</body>
+</html>

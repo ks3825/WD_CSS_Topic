@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+        .abcd{
+         display: flex;
+        }
+        .main{
+            height: 600px;
+            width: 250px;
+            background-color: chartreuse;
+            position: relative;
+            
+            
+            
+         }
+         .sub1{
+            height: 40px;
+            width: 40px;
+            background-color: aliceblue;
+            border: 2px solid black;
+            margin-left: 120px;
+            margin-top: 200px;
+            position: absolute;
+            transform: rotate(140deg);
+            display: inline-block;
+            
+         }
+         .sub2{
+            height: 40px;
+            width: 40px;
+            background-color: blue;
+            border: 2px solid black;
+            position:absolute ;
+            margin-left:125px ;
+            margin-top:138px ;
+            transform: rotate(140deg);
+            display: inline-block;
+         }
+         .sub3{
+            height: 40px;
+            width: 40px;
+            background-color: yellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left:181px ;
+            margin-top: 200px;
+            transform: rotate(134deg);
+            display: inline-block;
+
+         }
+         .sub4{
+               height: 40px;
+               width: 40px;
+               background-color: deeppink;
+               border: 2px solid black;
+               position: absolute;
+               margin-top:189px ;
+               margin-left:59px ;
+               transform: rotate(150deg);
+               
+         }
+         .sub5{
+            height: 40px;
+            width: 40px;
+            background-color: greenyellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left: 108px;
+            margin-top: 260px;
+            transform: rotate(150deg);
+         }
+          .pink{
+            height: 600px;
+            width: 250px;
+            background-color: deeppink;
+            position: relative;
+            display: flex;
+            
+            
+         }
+         .b1{
+            height: 40px;
+            width: 40px;
+            background-color: aliceblue;
+            border: 2px solid black;
+            margin-left: 120px;
+            margin-top: 200px;
+            position: absolute;
+            transform: rotate(140deg);
+            
+         }
+         .b2{
+            height: 40px;
+            width: 40px;
+            background-color: blue;
+            border: 2px solid black;
+            position:absolute ;
+            margin-left:125px ;
+            margin-top:138px ;
+            transform: rotate(140deg);
+         }
+         .b3{
+            height: 40px;
+            width: 40px;
+            background-color: yellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left:181px ;
+            margin-top: 200px;
+            transform: rotate(134deg);
+
+         }
+         .b4{
+               height: 40px;
+               width: 40px;
+               background-color: deeppink;
+               border: 2px solid black;
+               position: absolute;
+               margin-top:189px ;
+               margin-left:59px ;
+               transform: rotate(150deg);
+         }
+         .b5{
+            height: 40px;
+            width: 40px;
+            background-color: greenyellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left: 108px;
+            margin-top: 260px;
+            transform: rotate(150deg);
+         }
+         .move{
+            height: 600px;
+            width: 250px;
+            background-color: yellow;
+            position: relative;
+            display: flex;
+         }
+         .a{
+            height: 40px;
+            width: 40px;
+            background-color: aliceblue;
+            border: 2px solid black;
+            margin-left: 120px;
+            margin-top: 200px;
+            position: absolute;
+            transform: rotate(100deg);
+        }
+         .b{
+            height: 40px;
+            width: 40px;
+            background-color: blue;
+            border: 2px solid black;
+            position:absolute ;
+            margin-left:121px ;
+            margin-top:151px ;
+            transform: rotate(85deg);
+         }
+         .c{
+            height: 40px;
+            width: 40px;
+            background-color: yellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left:165px ;
+            margin-top: 205px;
+            transform: rotate(2deg);
+
+         }
+         .d{
+               height: 40px;
+               width: 40px;
+               background-color: deeppink;
+               border: 2px solid black;
+               position: absolute;
+               margin-top:194px ;
+               margin-left:74px ;
+               transform: rotate(3deg);
+         }
+         .e{
+            height: 40px;
+            width: 40px;
+            background-color: lawngreen;
+            border: 2px solid black;
+            position: absolute;
+            margin-left: 115px;
+            margin-top: 245px;
+            transform: rotate(3deg);
+         }
+         .blue{
+            height: 600px;
+            width: 250px;
+            background-color: blue;
+            position: relative;
+            display: flex;
+         }
+         .aa{
+            height: 40px;
+            width: 40px;
+            background-color: aliceblue;
+            border: 2px solid black;
+            margin-left: 120px;
+            margin-top: 200px;
+            position: absolute;
+            transform: rotate(105deg);
+         }
+         .bb{
+            height: 40px;
+            width: 40px;
+            background-color: blue;
+            border: 2px solid black;
+            position:absolute ;
+            margin-left:123px ;
+            margin-top:150px ;
+            transform: rotate(83deg);
+         }
+         .cc{
+            height: 40px;
+            width: 40px;
+            background-color: yellow;
+            border: 2px solid black;
+            position: absolute;
+            margin-left:169px ;
+            margin-top: 202px;
+            transform: rotate(80deg);
+
+         }
+         .dd{
+               height: 40px;
+               width: 40px;
+               background-color: deeppink;
+               border: 2px solid black;
+               position: absolute;
+               margin-top:198px ;
+               margin-left:68px ;
+               transform: rotate(80deg);
+         }
+         .ee{
+            height: 40px;
+            width: 40px;
+            background-color: lawngreen;
+            border: 2px solid black;
+            position: absolute;
+            margin-left: 121px;
+            margin-top: 253px;
+            transform: rotate(70deg);
+         }
+         
+         
+         
+                
+            
+            
+         
+         
+
+         
+         
+    </style>
+</head>
+<body>
+   <div class="abcd">
+    <div class="main">
+        <div class="sub1"></div>
+        <div class="sub2"></div>
+        <div class="sub3"></div>
+        <div class="sub4"></div>
+        <div class="sub5"></div>
+    </div>
+    <div class="pink">
+        <div class="b1"></div>
+        <div class="b2"></div>
+        <div class="b3"></div>
+        <div class="b4"></div>
+        <div class="b5"></div>
+    </div>
+    <div class="move">
+        <div class="a"></div>
+        <div class="b"></div>
+        <div class="c"></div>
+        <div class="d"></div>
+        <div class="e"></div>
+        
+    </div>
+    <div class="blue">
+        <div class="aa"></div>
+        <div class="bb"></div>
+        <div class="cc"></div>
+        <div class="dd"></div>
+        <div class="ee"></div>
+    </div>
+   </div>
+</body>
+</html>

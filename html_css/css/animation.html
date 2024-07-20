@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .main{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            animation-name: mymove;
+            animation-duration: 10s;
+        }
+        .sub{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            background-color: chartreuse;
+            filter: brightness(200%);
+            animation-name: mymove;
+            animation-duration: 10s;
+        }
+        @keyframes mymove {
+            from{
+                background-color: darkorchid;
+            }
+            to{
+                background-color: darkgoldenrod;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main"></div><br>
+    <div class="sub"></div>
+</body>
+</html>
